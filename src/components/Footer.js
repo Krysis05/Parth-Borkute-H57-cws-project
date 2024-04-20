@@ -6,14 +6,19 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import "../styles/Footer.css";
 
 function Footer() {
-  return (
-    <div className="footer">
-      <div className="socialMedia">
-        <InstagramIcon /> <TwitterIcon /> <FacebookIcon /> <LinkedInIcon />
-      </div>
-      <p> &copy; 2024 Desipizza.com</p>
-    </div>
-  );
+return (
+<div className="footer">
+<div className="socialMedia">
+<InstagramIcon /> <TwitterIcon /> <FacebookIcon /> <LinkedInIcon
+/>
+</div>
+import React from "react";
+
+function MenuItem({ image, name, price }) {
+
+<p> &copy; 2024 Desipizza.com</p>
+</div>
+);
 }
 
 export default Footer;
